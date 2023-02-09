@@ -5,3 +5,4 @@ inf.php
 git_sync
 git_sync.sh
 logs
+*.log
