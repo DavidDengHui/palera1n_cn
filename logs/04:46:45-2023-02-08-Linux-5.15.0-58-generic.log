@@ -1,0 +1,70 @@
+[*][1;33m 当前运行命令: sudo ./palera1n.sh --rootfull 15.7.3 [0m
+[*] [1;34m palera1n [0m | [1;35m 版本号:[0m [1;35m 2.0.0 -[1;34m DavidDengHui  [1;35m 更新日期: 2023.02.08 [0m
+[1;34m Nebula和Mineek原创编写 | 部分代码来自Nathan的ramdisk. [0m
+[1;34m 特别感谢 checkra1n 团队的辛勤工作,开源代码和启发. [0m
+[1;34m 即使我们使用 checkra1n,我们也不以任何方式,形式或形式隶属于他们. [0m
+[1;34m 这个工具是独立项目,没有得到 checkra1n 的认可,也不被他们支持. [0m
+[1;34m palera1n按原样提供，不提供任何明示或暗示的保证. [0m
+[1;34m palera1n对您的设备可能发生的任何损坏、数据丢失或任何其他问题概不负责. [0m
+
+[1;33m[*] 警告：将使用rootfull模式越狱,这是半限制,需要引导越狱![0m
+[1;33m[*] 您是否 100% 确定要继续? (y/n)[0m
+[1;31m[!] 越狱完成后的必须步骤:[0m
+[1;31m[!] 终端输入:[1;34m'bootstrap'[1;31m 安装越狱环境.[0m
+[!] 耐心等待5分钟,Sileo 和 Substitute 将被安装到iOS设备.
+[*][1;34m 等待设备连接 [0m
+[*][1;34m 当前设备是: recovery 模式 [0m
+[*][1;34m 读取设备信息中...[0m
+[*][1;34m 按任意键开始进入DFU模式[0m
+[K[1;36m请准备 (3)[K[1;36m请准备 (2)[K[1;36m请准备 (1)[K[1;36m请准备 (0)[0m
+[K[1;36m按住音量减 + 电源键 (4)[K[1;36m按住音量减 + 电源键 (3)[K[1;36m按住音量减 + 电源键 (2)[K[1;36m按住音量减 + 电源键 (1)[K[1;36m按住音量减 + 电源键 (0)[0m
+[K[1;36m松开 电源键, 继续按住 音量减 (10)[K[1;36m松开 电源键, 继续按住 音量减 (9)[K[1;36m松开 电源键, 继续按住 音量减 (8)[K[1;36m松开 电源键, 继续按住 音量减 (7)[K[1;36m松开 电源键, 继续按住 音量减 (6)[K[1;36m松开 电源键, 继续按住 音量减 (5)[K[1;36m松开 电源键, 继续按住 音量减 (4)[0m
+[*][1;34m 成功进入DFU模式![0m
+[*] Resetting DFU state
+usb_timeout: 5
+[libusb] Waiting for the USB handle with VID: 0x5AC, PID: 0x1227
+Found the USB handle.
+[*][1;34m 启动设备中 ...[0m
+[!][1;34m  越狱完成后，您需要手动引导bootstrap. [0m
+[!][1;34m  您可以通过运行iproxy 1337 1337开启SSH通道 [0m
+[!][1;34m  运行命令 'nc 127.1 1337'连接通道,输入'bootstrap' 安装越狱. [0m
+[!][1;34m  几秒钟后,Sileo 和 Substitute 将被安装. [0m
+#
+# Checkra1n 0.1337.0
+#
+# Proudly written in nano
+# (c) 2019-2022 Kim Jong Cracks
+#
+#========  Made by  =======
+# argp, axi0mx, danyl931, jaywalker, kirb, littlelailo, nitoTV
+# never_released, nullpixel, pimskeks, qwertyoruiop, sbingner, siguza
+#======== Thanks to =======
+# haifisch, jndok, jonseals, xerub, lilstevie, psychotea, sferrini
+# Cellebrite (ih8sn0w, cjori, ronyrus et al.)
+#==========================
+
+ - [02/08/23 04:47:11] <Info>: Waiting for DFU mode devices
+ - [02/08/23 04:47:12] <Verbose>: DFU mode device found
+ - [02/08/23 04:47:12] <Info>: Checking if device is ready
+ - [02/08/23 04:47:12] <Verbose>: Attempting to perform checkm8 on 8010 11
+ - [02/08/23 04:47:12] <Info>: Setting up the exploit
+ - [02/08/23 04:47:12] <Verbose>: == checkm8 setup stage ==
+ - [02/08/23 04:47:12] <Verbose>: UaF race: setup packet was accepted, attempting heuristic strategy
+ - [02/08/23 04:47:12] <Verbose>: UaF race: heuristic strategy was successful
+ - [02/08/23 04:47:12] <Verbose>: Entered initial checkm8 state after 1 steps
+ - [02/08/23 04:47:12] <Verbose>: Stalled input endpoint after 1 steps
+ - [02/08/23 04:47:12] <Verbose>: DFU mode device disconnected
+ - [02/08/23 04:47:12] <Verbose>: DFU mode device found
+ - [02/08/23 04:47:12] <Verbose>: == checkm8 trigger stage ==
+ - [02/08/23 04:47:12] <Info>: Checkmate!
+ - [02/08/23 04:47:12] <Verbose>: Device should now reconnect in download mode
+ - [02/08/23 04:47:12] <Verbose>: DFU mode device disconnected
+ - [02/08/23 04:47:19] <Info>: Entered download mode
+ - [02/08/23 04:47:19] <Verbose>: Download mode device found
+ - [02/08/23 04:47:19] <Info>: Booting PongoOS...
+ - [02/08/23 04:47:19] <Verbose>: Download mode device disconnected
+ - [02/08/23 04:47:20] <Info>: Entered Pongo USB mode
+ - [02/08/23 04:47:20] <Verbose>: Pongo USB mode device found
+ - [02/08/23 04:47:20] <Verbose>: Setting bootargs to: rootdev=md0
+ - [02/08/23 04:47:22] <Error>: Pongo USB error: 00000047 (error code: -status_bootx)
+ - [02/08/23 04:47:22] <Verbose>: Pongo USB mode device disconnected

@@ -1,0 +1,5 @@
+# The following file types do not need to be uploaded
+*.swp
+*.inf.php
+inf.php
+git_sync
